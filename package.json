@@ -36,7 +36,8 @@
   },
   "noflo": {
     "components": {
-      "CreateSource": "components/CreateSource.coffee"
+      "CreateSource": "components/CreateSource.coffee",
+      "CreateTask": "components/CreateTask.coffee"
     }
   }
 }
