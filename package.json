@@ -38,6 +38,7 @@
     "components": {
       "CreateSource": "components/CreateSource.coffee",
       "CreateTask": "components/CreateTask.coffee",
+      "RunTask": "components/RunTask.coffee",
       "WatchFiles": "components/WatchFiles.coffee",
       "WriteToDestination": "components/WriteToDestination.coffee"
     }
