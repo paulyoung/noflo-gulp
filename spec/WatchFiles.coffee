@@ -36,7 +36,7 @@ describe 'WatchFiles', ->
     tasks.push taskTwo
 
     eventEmitter = noflo.internalSocket.createSocket()
-    component.outPorts.eventEmitter.attach eventEmitter
+    component.outPorts.event_emitter.attach eventEmitter
 
 
   describe 'glob', ->
@@ -179,9 +179,9 @@ describe 'WatchFiles', ->
   describe 'event emitter', ->
 
     it 'should not be required', ->
-      required = component.outPorts.eventEmitter.isRequired()
+      required = component.outPorts.event_emitter.isRequired()
       expect(required).to.be.false
 
     it 'should be an object', ->
-      dataType = component.outPorts.eventEmitter.getDataType()
+      dataType = component.outPorts.event_emitter.getDataType()
       expect(dataType).to.equal 'object'

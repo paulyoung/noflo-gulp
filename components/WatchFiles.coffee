@@ -27,7 +27,7 @@ class WatchFiles extends Component
         addressable: true
 
     @outPorts = new OutPorts
-      eventEmitter:
+      event_emitter:
         datatype: 'object'
         description: 'The EventEmitter returned by gulp.watch'
 
@@ -45,7 +45,7 @@ module.exports =
         'glob'
         'tasks'
       ]
-      out: 'eventEmitter'
+      out: 'event_emitter'
       arrayPolicy:
         in: 'all'
 
